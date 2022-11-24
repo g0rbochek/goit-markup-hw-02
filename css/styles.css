@@ -1,0 +1,159 @@
+:root {
+
+}
+
+body {
+    background-color: #E5E5E5;
+    color: #434455;
+    font-family: Roboto, sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+text-decoration: none;
+
+/*HEADER*/
+.header- {
+
+}
+
+.header-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    
+
+    color: #2E2F42;
+}
+
+.header-nav {
+
+}
+ 
+.header-nav-ul .link {
+    color: #2E2F42;
+
+}
+
+.header-nav-ul-link {
+
+}
+/* HEADER CONTACTS UL*/
+.ul-contacts {
+
+}
+
+.ul-contacts- {
+    color: #434455;
+}
+
+/* main */
+.mainn > section h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;    
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize; 
+    color: #2E2F42
+}
+
+.main-section-top > h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.main-ourmethods > li h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;  
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.main-ourmethods > li p {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* our team */
+.main-methods > li h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;    
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.main-methods > li p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.main-1 h1 {
+
+}
+
+.main- > section h3 { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;   
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.main- > section p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* footer */
+.footer1 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
