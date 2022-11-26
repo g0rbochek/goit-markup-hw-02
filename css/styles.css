@@ -1,11 +1,11 @@
-:root {
-
-}
-
 body {
     background-color: #E5E5E5;
     color: #434455;
     font-family: Roboto, sans-serif;
+    list-style: none;
+}
+ul {
+    list-style: none;
 }
 /*HEADER*/
 .loga {
@@ -46,7 +46,9 @@ body {
 .header-link:focus {
     color: #434455
 }
- 
+.header-link {
+    text-decoration: none;
+}
 .header-nav-ul {
     color: #2E2F42;
     list-style: none;
@@ -62,6 +64,9 @@ body {
 .header-nav-ul .link:hover,
 .header-nav-ul .link:focus {
     color: #434455;
+}
+.header-nav-ul a {
+    text-decoration: none;
 }
 
 
@@ -80,7 +85,8 @@ body {
 }
 /* MAIN BUTTON */
 .buto {
-   background-color: #4D5AE5;;
+   background-color: #4D5AE5;
+   cursor: pointer;
 }
 .buto:hover,
 .buto:focus {
@@ -148,7 +154,6 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-
 .main- > section p {
     font-family: 'Roboto';
     font-size: 16px;
@@ -157,7 +162,7 @@ body {
     color: #434455;
 }
 /* footer */
-.footer1 p {
+.footer- p {
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 24px;
