@@ -2,9 +2,11 @@ body {
     background-color: #ffffff;
     color: #434455;
     font-family: Roboto, sans-serif;
-    /* list-style: none; */
+    font-size: 16px;
+    letter-spacing: 0,02em;
 }
 ul {
+    list-style: none;
 }
 /*HEADER*/
 .loga {
@@ -71,13 +73,15 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: #2E2F42;
 }
-.header-nav-ul a {
+.header-nav-ul > a {
     text-decoration: none;
 }
-
-
+/* .current {
+    color: #4D5AE5;
+} */
 
 /* HEADER CONTACTS UL*/
 .ul-contacts- {
@@ -95,22 +99,16 @@ ul {
 /* MAIN BUTTON */
 .buto-main {
     display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px 32px;
-        gap: 10px;
-    
-        position: absolute;
-        width: 170px;
-        height: 51px;
-        left: 635px;
-        top: 432px;
-    
-        background: #4D5AE5;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px; 
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
 }
-.buto-main > span {
+.buto-main {
     
     font-weight: 700;
     font-size: 16px;
@@ -132,18 +130,13 @@ ul {
     color: #404BBF;
 }
 /* BUTTON PORTFOLIO */
-.buto {
+/* .buto {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 8px 16px;
-    
-    width: 116px;
-    height: 48px;
-    
-    
     background: #F4F4FD;
     
     
@@ -153,12 +146,9 @@ ul {
     flex: none;
     order: 1;
     flex-grow: 0;
-}
-.buto span {
-    width: 68px;
-    height: 24px;
-
-    
+} */
+/* .buto span {
+    font-family: 'Roboto' ;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
@@ -167,9 +157,26 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
+
+    color: #4D5AE5;
+} */
+.buto {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 
     color: #4D5AE5;
 }
+.buto:focus,
+.buto:hover,
 .buto:active {
     color: #4D5AE5;
 }
@@ -180,20 +187,10 @@ ul {
     color: #4D5AE5;
 }
 /* main */
-.main-section h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;    
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize; 
-    color: #2E2F42
-}
-.main-section-tm h2 {
+.main-section-tm h3 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42
@@ -202,8 +199,6 @@ ul {
     background-color: #F4F4FD;
 }
 .main-section-top {
-    width: 1440px;
-    height: 603px;
     background-color: #2E2F42;
 }
 
@@ -217,10 +212,7 @@ ul {
 }
 
 .main-team > li p {
-    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .main-team > li h3 {
@@ -231,10 +223,7 @@ ul {
     color: #2E2F42;
 }
 .main-ourmethods > li p {
-    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455
 }
 .main-ourmethods > h3 {
     font-weight: 700;
@@ -252,19 +241,14 @@ ul {
     color: #2E2F42;
 }
 .main- > section p {
-    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 /* footer */
 .footer-{
     background-color: #2E2F42;
 }
 .footer- p {
-    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #E7E9FC;
 }
 /* visually */
