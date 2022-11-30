@@ -1,9 +1,18 @@
+:root {
+    color: #4D5AE5;
+    color: #2E2F42;
+    color: #31D0AA;
+    color: #434455;
+    color: #8E8F99;
+    color: #E7E9FC;
+    color: #F4F4FD;
+}
 body {
     background-color: #ffffff;
     color: #434455;
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
 }
 ul {
     list-style: none;
@@ -79,9 +88,7 @@ ul {
 .header-nav-ul > a {
     text-decoration: none;
 }
-/* .current {
-    color: #4D5AE5;
-} */
+
 
 /* HEADER CONTACTS UL*/
 .ul-contacts- {
@@ -98,69 +105,22 @@ ul {
 }
 /* MAIN BUTTON */
 .buto-main {
-    display: flex;
-    flex-direction: row;
+    font-family: 'Roboto';
     align-items: flex-start;
     padding: 16px 32px;
-    gap: 10px; 
-    background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    color: #ffffff;
+    background-color: #4D5AE5;
 }
-.buto-main {
-    
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.1;
- 
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.buto-main:hover {
-    color: #4D5AE5;
-}
+.buto-main:hover,
 .buto-main:focus {
-    color: #404BBF;
+    color: #ffffff;
+    background-color: #404BBF;
 }
-/* BUTTON PORTFOLIO */
-/* .buto {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
-    background: #F4F4FD;
-    
-    
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-} */
-/* .buto span {
-    font-family: 'Roboto' ;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.5;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    cursor: pointer;
 
-    color: #4D5AE5;
-} */
 .buto {
     font-family: 'Roboto';
     font-weight: 700;
@@ -174,30 +134,25 @@ ul {
     cursor: pointer;
 
     color: #4D5AE5;
-}
-.buto:focus,
-.buto:hover,
-.buto:active {
-    color: #4D5AE5;
-}
-.buto:hover {
-    color: #4D5AE5;
-}
-.buto:focus {
-    color: #4D5AE5;
-}
-/* main */
-.main-section-tm h3 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42
-}
-.main-section-tm {
     background-color: #F4F4FD;
 }
+.buto:focus,
+.buto:hover {
+    color: #ffffff;
+    background-color: #4D5AE5;
+}
+
+/* main */
+.main-section-tm h3 {
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #2E2F42
+}
+.main-section-tm h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
 .main-section-top {
     background-color: #2E2F42;
 }
@@ -210,12 +165,15 @@ ul {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-
+.main-section h2 {
+    font-size: 36px;
+    line-height: 1.1;
+}
 .main-team > li p {
     line-height: 1.5;
 }
 
-.main-team > li h3 {
+.main-ourmethods  h3 {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;    
@@ -244,7 +202,7 @@ ul {
     line-height: 1.5;
 }
 /* footer */
-.footer-{
+.footer- {
     background-color: #2E2F42;
 }
 .footer- p {
@@ -264,4 +222,7 @@ ul {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden
+}
+.current {
+    color: #404BBF;
 }
