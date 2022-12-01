@@ -106,6 +106,10 @@ ul {
 /* MAIN BUTTON */
 .buto-main {
     font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
     align-items: flex-start;
     padding: 16px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -143,7 +147,11 @@ ul {
 }
 
 /* main */
+.main-section-tm {
+    background-color: #F4F4FD;
+}
 .main-section-tm h3 {
+    font-size: 20px;
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: #2E2F42
@@ -151,6 +159,7 @@ ul {
 .main-section-tm h2 {
     font-weight: 700;
     font-size: 36px;
+    color: #2E2F42;
 }
 
 .main-section-top {
@@ -168,6 +177,8 @@ ul {
 .main-section h2 {
     font-size: 36px;
     line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .main-team > li p {
     line-height: 1.5;
